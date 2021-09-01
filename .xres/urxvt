@@ -27,6 +27,14 @@ URxvt.geometry: 112x32
 URxvt.cursorBlink: flase
 
 ! Extenxions
-URxvt.perl-ext-common: fullscreen,tabbed,resize-font
+URxvt.perl-ext-common: fullscreen,tabbed,resize-font,matcher,keyboard-select
+
+! fullscreen
 URxvt.keysym.F11: perl:fullscreen:switch
 
+! clickable urls i.e matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+
+! keyboard select mode
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
