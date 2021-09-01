@@ -1,0 +1,32 @@
+! colors
+URxvt*foreground:               fgcol
+URxvt*background:               bgcol
+URxvt*cursorColor:              curcol
+URxvt*highlightTextColor:       hlcol
+URxvt*color0:                   col0
+URxvt*color8:                   col8
+URxvt*color1:                   col1
+URxvt*color9:                   col9
+URxvt*color2:                   col2
+URxvt*color10:                  col10
+URxvt*color3:                   col3
+URxvt*color11:                  col11
+URxvt*color4:                   col4
+URxvt*color12:                  col12
+URxvt*color5:                   col5
+URxvt*color13:                  col13
+URxvt*color6:                   col6
+URxvt*color14:                  col14
+URxvt*color7:                   col7
+URxvt*color15:                  col15
+
+! Appearence
+URxvt.font: xft:myfont:size=myfontsize
+URxvt.scrollBar: false
+URxvt.geometry: 112x32
+URxvt.cursorBlink: flase
+
+! Extenxions
+URxvt.perl-ext-common: fullscreen,tabbed,resize-font
+URxvt.keysym.F11: perl:fullscreen:switch
+
