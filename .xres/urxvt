@@ -27,7 +27,7 @@ URxvt.geometry: 112x32
 URxvt.cursorBlink: flase
 
 ! Extenxions
-URxvt.perl-ext-common: fullscreen,tabbed,resize-font,matcher,keyboard-select
+URxvt.perl-ext-common: fullscreen,tabbed,resize-font,matcher,keyboard-select,selection-to-clipboard
 
 ! fullscreen
 URxvt.keysym.F11: perl:fullscreen:switch
@@ -38,3 +38,4 @@ URxvt.matcher.button: 1
 
 ! keyboard select mode
 URxvt.keysym.M-Escape: perl:keyboard-select:activate
+
