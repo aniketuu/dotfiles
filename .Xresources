@@ -1,4 +1,4 @@
 ! Color scheme
-#include "/home/saberton/.xres/colors"
+#include ".xres/colors"
 ! URxvt assignment
-#include "/home/saberton/.xres/urxvt"
+#include ".xres/urxvt"
