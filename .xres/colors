@@ -1,0 +1,44 @@
+! definie a color scheme
+
+! special cols
+#define fgcol               #C5B2FF
+#define bgcol               #131513
+#define curcol              #6632FF
+#define hlcol               #C0C5CE
+
+! black
+#define col0                #131513
+#define col8                #687d68
+
+! red
+#define col1                #e6193c
+#define col9                #e6193c
+
+! green
+#define col2                #29a329
+#define col10               #29a329
+
+! yellow
+#define col3                #c3c322
+#define col11               #c3c322
+
+! blue
+#define col4                #3d62f5
+#define col12               #3d62f5
+
+! magenta
+#define col5                #ad2bee
+#define col13               #ad2bee
+
+! cyan
+#define col6                #1999b3
+#define col14               #1999b3
+
+! white
+#define col7                #8ca68c
+#define col15               #f0fff0
+
+
+! define font data
+#define myfont              Monospace
+#define myfontsize          12
