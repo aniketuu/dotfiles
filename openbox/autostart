@@ -24,5 +24,8 @@ echo `xrandr -s 1920x1080` &
 echo `xset r rate 320 64` &
 numlockx &
 
+# network
+nm-applet &
+
 # panel
 tint2 &
