@@ -24,8 +24,17 @@ echo `xrandr -s 1920x1080` &
 echo `xset r rate 320 64` &
 numlockx &
 
-# network
-nm-applet &
+# wallpaper
+nitrogen --restore
 
 # panel
 tint2 &
+
+# tray
+(sleep 2s && nm-applet) &
+(sleep 2s && volumeicon) &
+
+# picom
+picom &
+
+
