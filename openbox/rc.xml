@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Surreal</name>
+    <name>Arcbox</name>
     <titleLayout>LIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -232,6 +232,12 @@
         <wrap>no</wrap>
       </action>
     </keybind> -->
+    <keybind key="W-Tab">
+      <action name="GoToDesktop">
+        <to>right</to>
+        <wrap>yes</wrap>
+      </action>
+    </keybind>
     <keybind key="W-1">
       <action name="GoToDesktop">
         <to>1</to>
@@ -488,6 +494,18 @@
     </keybind>
     <keybind key="W-S-q">
       <action name="Exit"/>
+    </keybind>
+    <keybind key="XF86MonBrightnessUp">
+      <action name="Execute">
+        <!-- <command>rofi -combi-modi drun -theme solarized -show combi -icon-theme "Papirus" -show-icons</command> -->
+        <command>light -A 10</command>
+      </action>
+    </keybind>
+    <keybind key="XF86MonBrightnessDown">
+      <action name="Execute">
+        <!-- <command>rofi -combi-modi drun -theme solarized -show combi -icon-theme "Papirus" -show-icons</command> -->
+        <command>light -U 10</command>
+      </action>
     </keybind>
   </keyboard>
   <mouse>

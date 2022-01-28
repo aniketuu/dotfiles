@@ -31,8 +31,8 @@ nitrogen --restore
 tint2 &
 
 # tray
-(sleep 2s && nm-applet) &
 (sleep 2s && volumeicon) &
+(sleep 2s && nm-applet) &
 
 # picom
 picom &

@@ -1,4 +1,0 @@
-! Color scheme
-#include ".xres/colors"
-! URxvt assignment
-#include ".xres/urxvt"
