@@ -283,7 +283,7 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="W-d">
+    <keybind key="W-S-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
     <!-- Keybindings for Aero Snap -->
@@ -473,13 +473,18 @@
         <command>firefox</command>
       </action>
     </keybind>
+    <keybind key="C-A-v">
+      <action name="Execute">
+        <command>librewolf</command>
+      </action>
+    </keybind>
     <keybind key="C-A-e">
       <action name="Execute">
         <command>thunar</command>
       </action>
     </keybind>
     <!-- rofi -->
-    <keybind key="W-a">
+    <keybind key="W-d">
       <action name="Execute">
         <!-- <command>rofi -combi-modi drun -theme solarized -show combi -icon-theme "Papirus" -show-icons</command> -->
         <command>rofi -show drun -theme nord</command>
