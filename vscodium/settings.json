@@ -1,0 +1,52 @@
+{
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 18,
+    "editor.fontLigatures": true,
+    "editor.lineNumbers": "relative",
+    "projectManager.git.baseFolders": ["$home/workspace"],
+    "workbench.settings.editor": "json",
+    "vim.leader": "<space>",
+    "vim.foldfix": true,
+    "vim.hlsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.textColor": "white",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before":["leader", "w"],
+            "commands":[":w!"]
+        },
+        {
+            "before":["leader", "q"],
+            "commands":[":q!"]
+        },
+        {
+            "before":["leader", "x"],
+            "commands":[":x!"]
+        },
+        {
+            "before":["<c-a>"],
+            "after":["g","g","V","G"] 
+        },
+        {
+            "before":["leader","k"],
+            "command":["editor.action.showHover"]
+        },
+        {
+            "before":["]","d"],
+            "command":["editor.action.marker.next"]
+        },
+        {
+            "before":["[","d"],
+            "command":["editor.action.marker.prev"]
+        },
+        {
+            "before":["leader","c","a"],
+            "command":["editor.action.quickFix"]
+        },
+    ]
+}
