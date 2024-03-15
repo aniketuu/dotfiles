@@ -11,7 +11,12 @@
     {
         "key": "Ctrl+e",
         "command": "workbench.files.action.focusFilesExplorer",
-        "when": "editorTextFocus"
+        "when": "!filesExplorerFocus"
+    },
+    {
+        "key": "Ctrl+e",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "editorTextFocus && sideBarVisible"
     },
     {
         "key": "a",
@@ -37,5 +42,10 @@
         "key": "d",
         "command": "deleteFile",
         "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "Shift+k",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
     }
 ]
