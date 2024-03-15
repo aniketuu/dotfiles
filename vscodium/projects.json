@@ -1,0 +1,16 @@
+[
+	{
+		"name": "learning",
+		"rootPath": "~/learning",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "notes",
+		"rootPath": "~/notes",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	}
+]
