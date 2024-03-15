@@ -8,11 +8,13 @@
     "editor.fontSize": 18,
     "editor.fontLigatures": true,
     "editor.lineNumbers": "relative",
+    "projectManager.cacheProjectsBetweenSessions": false,
+    "projectManager.any.maxDepthRecursion": 2,
+    "projectManager.groupList": true,
     "projectManager.git.baseFolders": [
         "~/learning",
         "~/notes"
     ],
-    "projectManager.groupList": true,
     "workbench.settings.editor": "json",
     "vim.leader": "<space>",
     "vim.foldfix": true,
