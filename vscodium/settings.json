@@ -1,6 +1,6 @@
 {
-    "workbench.startupEditor": "welcomePage",
-    "security.workspace.trust.enabled": true,
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.enabled": false,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Solarized Dark",
     "workbench.preferredDarkColorTheme": "Solarized Dark",
