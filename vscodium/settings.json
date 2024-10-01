@@ -100,7 +100,7 @@
   "window.zoomLevel": 1,
   "workbench.colorTheme": "Kanagawa Wave",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.settings.editor": "json",
+  "window.titleBarStyle": "custom",
   "workbench.startupEditor": "readme",
   "zenMode.hideLineNumbers": false
 }
