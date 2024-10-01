@@ -102,5 +102,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "window.titleBarStyle": "custom",
   "workbench.startupEditor": "readme",
+  "workbench.sideBar.location": "right",
   "zenMode.hideLineNumbers": false
 }
