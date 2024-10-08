@@ -103,5 +103,6 @@
   "window.titleBarStyle": "custom",
   "workbench.startupEditor": "readme",
   "workbench.sideBar.location": "right",
-  "zenMode.hideLineNumbers": false
+  "zenMode.hideLineNumbers": false,
+  "markdown.preview.doubleClickToSwitchToEditor": false
 }
