@@ -102,5 +102,9 @@
     "workbench.startupEditor": "readme",
     "workbench.sideBar.location": "right",
     "zenMode.hideLineNumbers": false,
-    "markdown.preview.doubleClickToSwitchToEditor": false
+    "markdown.preview.doubleClickToSwitchToEditor": false,
+    "redhat.telemetry.enabled": false,
+    "files.associations": {
+        "*.py": "python"
+    }
 }
